@@ -13,7 +13,7 @@ class TechList extends Component {
      * da variável, sendo assim, utilizo o setState e crio um novo
      * array
      */
-    this.setState({ techs: [...techs, this.state.newTech] });
+    this.setState({ techs: [...this.state.techs, this.state.newTech] });
   };
 
   handleInputChange = e => {
