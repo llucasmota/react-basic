@@ -5,6 +5,14 @@ class TechList extends Component {
     newTech: "",
     techs: ["Node.jS", "ReactJS", "React Native"]
   };
+  // executa assim que o componente é apresentado
+  componentDidMount() {}
+
+  // executa assim que há alteração nas props e no estado
+  componentDidUpdate(prevProps, prevState) {}
+
+  // executa quando o componente deixa de existir
+  componentWillMount() {}
 
   handleSubmit = e => {
     e.preventDefault();
